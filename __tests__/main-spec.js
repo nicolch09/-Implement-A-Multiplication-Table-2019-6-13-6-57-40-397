@@ -15,17 +15,17 @@ it ('should add two numbers', () => {
     expect(add(5, 5)).toBe(expectedResult);
 });
 
-it ('should add two numbers', () => {
+it ('should return null', () => {
     let expectedResult = null;
     expect(add(5, 2)).toBe(expectedResult);
 });
 
-it ('should add two numbers', () => {
+it ('should return null', () => {
     let expectedResult = null;
     expect(add(-3, -1)).toBe(expectedResult);
 });
 
-it ('should add two numbers', () => {
+it ('should return null', () => {
     let expectedResult = null;
     expect(add(1, 1001)).toBe(expectedResult);
 });
